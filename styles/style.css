@@ -94,6 +94,13 @@ section {
   align-items: center;
   justify-content: center;
 }
+.controls .active-btn {
+  background-color: var(--color-secondary) !important;
+  transition: var(--primary-transition);
+}
+.controls .active-btn i {
+  color: var(--color-white) !important;
+}
 .controls .control {
   padding: 1rem;
   cursor: pointer;
